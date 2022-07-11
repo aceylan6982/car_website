@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.container{
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./porche.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px ;
+
+}
+nav ul{
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 5ms;
+    
+}
+nav ul li a:hover{
+    color: rgb(218, 88, 28)
+}
+.col{
+    flex-basis: 50%;
+}
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+.desc{
+    font-size: 16px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+.card{
+    width: 150px;
+    height: 180px;
+    display: inline-block;
+    background-image:url('./car_logo.jpg') ;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 10px 15px;
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.7)
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 26px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
